@@ -12,4 +12,4 @@ public class Date2Example {
     String CurrentTime=df.format(aug);
         System.out.println("the Current time is "+CurrentTime);
     
-}
+}}

@@ -1,11 +1,9 @@
 package HashSetExample;
-
 import java.util.*;
 import java.util.HashSet;
 
 public class SetClass {
     public static void main(String[] args) {
-
 
         Set<String> newSet = new HashSet<>();
         {
@@ -26,8 +24,10 @@ public class SetClass {
             System.out.println("_______________________________________________________________________");
             //contains method
             System.out.println(newSet.contains("Soldier")); //true
+            //remove method
             boolean jj=newSet.remove("Soldier");
             System.out.println(jj);
+            //set size
             System.out.println("The size of set is:"+newSet.size());
             System.out.println("_______________________________________________________________________");
             //displaying set one by one like foreach loop. only forward not backward

@@ -21,6 +21,5 @@ public class ArrayPractice {
         String newArr2 = Arrays.toString(input2);
         System.out.println("input 2 arraylist is " + newArr2);
 
-
     }
 }

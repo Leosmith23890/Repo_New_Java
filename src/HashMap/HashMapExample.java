@@ -16,6 +16,14 @@ public class HashMapExample {
         System.out.println();
         System.out.print("The MapSet list is :" +studentMap);
         System.out.println("The HashMap size is: "+studentMap.size());
+        //String kk=studentMap.remove(1);
+       // System.out.println("Value removed is "+kk);
+  boolean jk=studentMap.remove(3,"Ram");
+        System.out.println("Value removed is "+jk);
+        System.out.println("The HashMap size is: "+studentMap.size());
+        String  mk=studentMap.get("John");
+        System.out.println("fetch" +mk);
+        System.out.println(studentMap.size());
         System.out.println("The Hashmap Key sets are");
         Set<Integer> allIds = studentMap.keySet();
         System.out.println("The keyset values are : " +allIds);
